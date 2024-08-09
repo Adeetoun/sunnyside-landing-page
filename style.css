@@ -22,9 +22,6 @@ p, h6 {
 h4{
     margin-top: 20px;
 }
-.mobile-img{
-    display: none;
-}
 .container{
     margin: 0;
     padding: 0;
@@ -176,9 +173,9 @@ h4{
     font-family: 'Fraunces', sans-serif;
     cursor: pointer;
 }
-.boxes-2 .box-2{
+/*.boxes-2 .box-2{
     background: hsl(7, 99%, 70%);
-}
+}*/
 .boxes-3{
     display: flex;
     width: 100%;
@@ -299,9 +296,6 @@ h4{
 .nav-bar .mobile .menu ul li{
     display: block;
 }
-.mobile-img{
- display: block;
-}
 .nav-bar ul li{
     display: none;
 }
@@ -339,8 +333,8 @@ h4{
 .box-2{
     height: 50%;
 }
-.desktop-img{
-    display: none;
+.box-2 img{
+    width: 100%;
 }
 .boxes-2{
     display: flex;
@@ -407,8 +401,8 @@ h4{
 .flex-3{
     display: flex;
 }
-.flex-3 .desktop-img{
-    display: none;
+.flex-3 img{
+    width: 25%;
 }
 
     
