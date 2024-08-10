@@ -133,6 +133,9 @@ h4{
     height: auto;
     object-fit: contain;
 }
+.boxes.box-2{
+    background: hsl(51, 100%, 49%);
+}
 .boxes .box-2 .mobile{
     display: none;
 }
